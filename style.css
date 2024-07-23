@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: rgb(85, 173, 173);
+    color: rgb(105, 93, 93);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #300a0a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(150, 130, 130, 0.1);
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 60%;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#charCountDisplay p {
+    margin: 0;
+    padding: 5px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
